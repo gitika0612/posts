@@ -30,9 +30,7 @@ body{
     gap: 1.6rem;
 }
 
-
-
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 768px) {
     body{
         padding: 0px 30px
       }
@@ -57,11 +55,12 @@ body{
         margin-top: 2rem;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     
   }
 
-  @media only screen and (max-width: 1200px) {
+  /* @media all and (max-width: 1200px) {
     body{
         padding: 0px 30px
       }
@@ -89,4 +88,4 @@ body{
         gap: 1.6rem;
     }
     
-  }
+  } */

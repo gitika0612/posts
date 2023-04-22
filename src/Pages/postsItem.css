@@ -1,0 +1,44 @@
+.card {
+    padding: 2em;
+    border: 1px solid #888;
+    border-radius: 15px;
+}
+
+.card:hover {
+ color: #e06919;
+ background-image:  url(https://demo.auburnforest.com/wordpress/pivotal/wp-content/uploads/2020/03/services_bg.jpg?id=3560) !important;
+}
+
+.title{
+    margin-top: .5rem;
+}
+
+.title .titleHeading {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title .titleSubHeading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: .5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contentBody {
+    color: #555 !important;
+}
+
+.tags {
+    color: #e06919;
+}
+
+.tags span {
+    color: #555 !important;
+    text-transform: capitalize;
+}
+
+.reactions {
+    margin-top: 15px;
+}
